@@ -26,7 +26,7 @@ export default function Home() {
         <span className="link">├── <a href="/about" data-type="file">about.dev</a></span>
         <span className="link">├── <a href="/skills" data-type="file">skills.dev</a></span>
         {/* <span className="link">├── <a href="/projects" data-type="file">projects.dev</a></span> */}
-        <span className="link">├── <a href="/portfolio" data-type="file">portfolio.dev</a></span>
+        <span className="link">├── <a href="/projects" data-type="file">portfolio.dev</a></span>
         <span className="link">├── <a href="/blog" data-type="file">blog.dev</a></span>
         <span className="link">├── <a href="/skills" data-type="file">skills.dev</a></span>
         <span className="link">└── <a href="/contacts" data-type="file">contacts.dev</a></span>

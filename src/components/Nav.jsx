@@ -15,8 +15,8 @@ export default function Nav() {
         {/* <NavLink to="/projects" className={active}>
           Projects
         </NavLink> */}
-        <NavLink to="/portfolio" className={active}>
-          Portfolio
+        <NavLink to="/projects" className={active}>
+          Projects
         </NavLink>
         <NavLink to="/blog" className={active}>
           Blog

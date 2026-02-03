@@ -5,7 +5,6 @@ import App from "./App";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
-import Portfolio from "./pages/Portfolio";
 import Blog from "./pages/Blog";
 import BlogPost from "./pages/BlogPost";
 import Skills from "./pages/Skills";
@@ -15,7 +14,6 @@ import "./assets/pages/about.css";
 import "./assets/pages/contacts.css";
 import "./assets/pages/projects.css";
 import "./assets/pages/skills.css";
-import "./assets/pages/portfolio.css";
 import "./assets/pages/blog.css";
 import "./assets/theme.js";
 
@@ -28,7 +26,6 @@ const router = createBrowserRouter(
         { index: true, element: <Home /> },
         { path: "about", element: <About /> },
         { path: "projects", element: <Projects /> },
-        { path: "portfolio", element: <Portfolio /> },
         { path: "blog", element: <Blog /> },
         { path: "blog/:id", element: <BlogPost /> },
         { path: "skills", element: <Skills /> },
