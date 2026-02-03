@@ -22,6 +22,9 @@
 # Local configuration that shouldn't be shared
 *.local
 
+# Build output
+/dist
+
 ### React ###
 # React build directory and environment files
 
