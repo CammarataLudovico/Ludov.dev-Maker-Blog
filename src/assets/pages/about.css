@@ -1,0 +1,40 @@
+main {
+    counter-reset: lineno;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    width: 400px;
+    height: 400px;
+}
+}
+
+.line, .status-line {
+    white-space: normal;
+    display: block;
+    word-break: break-word;
+}
+
+.line:before {
+    counter-increment: lineno;
+    content: counter(lineno);
+    padding-right: 1vw;
+    padding-left: 1vw;
+    font-weight: bold;
+}
+
+.empty-line:before {
+    content: "~";
+    padding-right: 1vw;
+    font-weight: bold;
+}
+
+.status-line {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+#age {
+    display: inline;
+}

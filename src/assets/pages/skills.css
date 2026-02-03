@@ -1,0 +1,25 @@
+@media (orientation: portrait) {
+    #horizontal {
+    display: none;
+    }
+
+    #vertical {
+    display: unset;
+        }
+    }
+
+@media (orientation: landscape) {
+    #horizontal {
+    display: flex;
+    justify-content: space-between;
+    }
+
+    #vertical {
+    display: none;
+        }
+    }
+
+    .deco {
+    display: inline;
+    font-weight: bold;
+    }

@@ -1,0 +1,173 @@
+:root {
+    --background: #121212;
+    --text: #BDBDBD;
+    --link: #616161;
+}
+
+html, body {
+        max-height: 100%;
+        margin: 5vh 3vw 5vh 3vw;
+        font-family: 'BioRhyme', serif;
+        font-size: 1.15em;
+        background-color: var(--background);
+        color: var(--text);
+}
+
+a {
+    color: var(--link);
+    text-decoration: none;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    transition: 150ms ease-in;
+}
+
+a:hover { 
+    background-color: var(--text);
+    color: var(--background);
+    transition: 150ms ease-in;
+}
+
+span {
+    display: block;
+}
+
+main {
+    margin-top: 10vh;
+    margin-bottom: 7vh;
+    font-size: 1.1em;
+    position: relative;
+}
+
+#title {
+    padding-bottom: 0;
+    font-size: 3.2em;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+}
+
+.fa-palette {
+    position: fixed;
+    bottom: 1vh;
+    right: 1vw;
+    margin: 0;
+    padding: 0.6vh 0.8vw;
+    font-size: 1.6em;
+    color: var(--text);
+    background: transparent;
+}
+
+.fa-palette:hover {
+        color: var(--link);
+        cursor: pointer;
+}
+
+header nav {
+    display: flex;
+    gap: 1rem;
+}
+
+.active {
+    font-weight: bold;
+}
+
+#title a {
+    color: var(--text);
+    text-decoration: none;
+    padding-right: 0.6rem;
+    font-weight: 800;
+}
+
+.line, .status-line {
+        white-space: nowrap;
+        display: block;
+        margin: 0.5rem 0;
+}
+
+.link {
+    display: block;
+    padding-left: 1rem;
+    color: var(--link);
+    margin: 0.4rem 0;
+}
+
+html, body {
+    font-size: clamp(0.95rem, 1.15vw + 0.9rem, 1.15rem);
+}
+
+@media (max-width: 720px) {
+    html, body {
+        margin: 4vh 3vw 4vh 3vw;
+    }
+
+    #title {
+        font-size: 2rem;
+    }
+
+    main {
+        margin-top: 8vh;
+        margin-bottom: 5vh;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+    header nav {
+        flex-wrap: wrap;
+        gap: 0.6rem;
+    }
+
+    header nav a, header nav .active {
+        padding: 0.4rem 0.6rem;
+        display: inline-block;
+    }
+
+    .fa-palette {
+        bottom: 0.6vh;
+        right: 0.6vw;
+        font-size: 1.4em;
+    }
+
+    .portfolio-grid {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 420px) {
+    html, body {
+        margin: 3vh 3vw 3vh 3vw;
+    }
+
+    #title {
+        font-size: 1.6rem;
+    }
+
+    .link {
+        padding-left: 0.6rem;
+        font-size: 0.95rem;
+    }
+
+    .card {
+        padding: 0.9rem;
+    }
+
+    pre {
+        white-space: pre-wrap;
+        word-break: break-word;
+    }
+}
+
+@media (hover: none) {
+    a:focus {
+        outline: 3px solid rgba(255,255,255,0.08);
+        outline-offset: 2px;
+    }
+}
+
+header nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.active {
+  font-weight: bold;
+}
