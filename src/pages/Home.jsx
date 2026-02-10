@@ -21,7 +21,7 @@ export default function Home() {
 
       <main>
         <b>Section:</b>
-        <span className="link">├── <a href="#" target="_blank" rel="noreferrer" data-type="dir">site_source/</a></span>
+        <span className="link">├── <a href="https://github.com/CammarataLudovico/Ludov.dev-Maker-Blog" target="_blank" rel="noreferrer" data-type="dir">site_source/</a></span>
         <span className="link">├── <a href="https://github.com/CammarataLudovico" target="_blank" rel="noreferrer" data-type="dir">github/</a></span>
         <span className="link">├── <a href="/about" data-type="file">about.dev</a></span>
         <span className="link">├── <a href="/skills" data-type="file">skills.dev</a></span>
