@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import posts from "../data/posts";
-import Markdown from "markdown-to-jsx";
+const sortedPosts = [...posts].sort((a, b) => b.id - a.id);
 
 export default function Blog() {
   return (
@@ -10,7 +10,7 @@ export default function Blog() {
 
       <main>
         <div className="portfolio-grid">
-          {posts.map((p) => (
+          {sortedPosts.map((p) => (
             <article key={p.id} className="card">
               <h3>{p.title}</h3>
               <small>{p.date}</small>
