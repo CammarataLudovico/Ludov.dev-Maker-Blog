@@ -171,3 +171,17 @@ header nav {
 .active {
   font-weight: bold;
 }
+
+/* Profile image sizing */
+.profile-img {
+    width: 75%;
+    height: auto;
+    display: block;
+    border-radius: 6px;
+}
+
+@media (max-width: 480px) {
+    .profile-img {
+        width: 95%;
+    }
+}
