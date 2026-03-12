@@ -24,9 +24,9 @@ export default function Nav() {
         <NavLink to="/skills" className={active}>
           Skills
         </NavLink>
-        <NavLink to="/contacts" className={active}>
+        {/* <NavLink to="/contacts" className={active}>
           Contacts
-        </NavLink>
+        </NavLink> */}
       </nav>
     </header>
   );
