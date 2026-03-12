@@ -11,7 +11,7 @@ main {
 
 .line, .status-line {
     white-space: normal;
-    display: block;
+    display: block; 
     word-break: break-word;
 }
 
