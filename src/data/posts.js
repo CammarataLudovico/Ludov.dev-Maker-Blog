@@ -37,6 +37,17 @@ Thank you for reading, and I hope you find the blog informative and engaging!
   ~
   .quit
   `
+  },
+  {
+    id: 2,
+    title: "Today I retook my English test!",
+    date: "17-08-2026",
+    certificateUrl: "https://cert.efset.org/it/Y1EwAJ",
+    summary: "Six years later, I retook the EF SET test and improved from B2 to C2.",
+    content: `Today I retook the EF SET English test to see how much my English has improved.\n\nI'm really happy with the result because six years ago, when I first took the test, I scored at a B2 level. This time, I reached an overall C2 level.\n\nMy Reading score improved from 49/100 to 87/100, going from B1 to C2, while my Listening score went from 57/100 to 68/100, improving from B2 to C1.\n\nI'm especially happy with the progress I've made in Reading, but I'd still like to improve my Listening skills.\n\nMy next goal is to get closer to C2 in Listening too, mainly by watching movies and TV series in English without relying too much on subtitles, and by listening to more podcasts.
+  ~
+  .quit
+  `
   }
 ];
 

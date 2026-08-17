@@ -48,7 +48,9 @@ Certifications:
 
 -[Sql intermediate](https://www.hackerrank.com/certificates/iframe/e83f2fde3d60)
 
--[Css Basic](https://www.hackerrank.com/certificates/iframe/e83f2fde3d60)" />
+-[Css Basic](https://www.hackerrank.com/certificates/iframe/e83f2fde3d60) 
+
+-[EF SET C2 English Certificate](https://cert.efset.org/it/Y1EwAJ)" />
   <span className="empty-line" />
       <span className="status-line">
         <span>.quit</span>

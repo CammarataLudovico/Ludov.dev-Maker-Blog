@@ -25,6 +25,11 @@ export default function BlogPost() {
           <h2>{post.title}</h2>
           <small>{post.date}</small>
           <div style={{ whiteSpace: "pre-wrap", marginTop: "1rem" }}>{post.content}</div>
+          <div>
+            <a href={post.certificateUrl} target="_blank" rel="noopener noreferrer">
+              View Certificate
+            </a>
+          </div>
         </article>
       </main>
     </div>
