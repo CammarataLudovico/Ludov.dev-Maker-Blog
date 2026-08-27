@@ -26,9 +26,15 @@ export default function BlogPost() {
           <small>{post.date}</small>
           <div style={{ whiteSpace: "pre-wrap", marginTop: "1rem" }}>{post.content}</div>
           <div>
-            <a href={post.certificateUrl} target="_blank" rel="noopener noreferrer">
-              View Certificate
-            </a>
+            {post.certificateUrl && (
+              <a
+                href={post.certificateUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Certificate
+              </a>
+            )}
           </div>
         </article>
       </main>
