@@ -1,4 +1,4 @@
-# Ludov.dev-Maker-Blog
+# Ludov.dev
 
 A simple, responsive React portfolio & blog starter used for Ludov.dev.
 

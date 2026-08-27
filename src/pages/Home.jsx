@@ -17,7 +17,7 @@ export default function Home() {
 
   return (
     <div>
-      <div id="title">Ludov.dev Maker Blog</div>
+      <div id="title">Ludovico Cammarata — Junior Software Developer</div>
 
       <main>
         
