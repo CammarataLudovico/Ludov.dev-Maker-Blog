@@ -32,20 +32,21 @@ span {
 }
 
 main {
-    margin-top: 10vh;
-    margin-bottom: 7vh;
+    margin-top: 2vh;
+    margin-bottom: 0;
     font-size: 1.1em;
     position: relative;
 }
 
 #title {
+    margin: 0;
     padding-bottom: 0;
-    font-size: 3.2em;
+    font-size: 2.2em;
     font-weight: 800;
     letter-spacing: -0.02em;
 }
 
-.fa-palette {
+.palette-button {
     position: fixed;
     bottom: 1vh;
     right: 1vw;
@@ -56,7 +57,7 @@ main {
     background: transparent;
 }
 
-.fa-palette:hover {
+.palette-button:hover {
         color: var(--link);
         cursor: pointer;
 }
@@ -88,8 +89,18 @@ header nav {
         margin: 0.5rem 0;
 }
 
-.link {
-    display: block;
+.terminal-path {
+    margin: 0;
+    font-weight: bold;
+}
+
+.file-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.file-list li {
     padding-left: 1rem;
     color: var(--link);
     margin: 0.4rem 0;
@@ -110,7 +121,7 @@ html, body {
 
     main {
         margin-top: 8vh;
-        margin-bottom: 5vh;
+        margin-bottom: 0;
         padding-right: 1rem;
         padding-left: 1rem;
     }
@@ -125,7 +136,7 @@ html, body {
         display: inline-block;
     }
 
-    .fa-palette {
+    .palette-button {
         bottom: 0.6vh;
         right: 0.6vw;
         font-size: 1.4em;
@@ -146,7 +157,7 @@ html, body {
         font-size: 1.6rem;
     }
 
-    .link {
+    .file-list li {
         padding-left: 0.6rem;
         font-size: 0.95rem;
     }
