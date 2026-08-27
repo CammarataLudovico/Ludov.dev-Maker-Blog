@@ -77,6 +77,11 @@ header nav {
     font-weight: 800;
 }
 
+#title a:hover {
+    background-color: var(--text);
+    color: var(--background);
+}
+
 .line, .status-line {
         white-space: nowrap;
         display: block;
