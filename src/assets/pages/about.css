@@ -2,13 +2,6 @@ main {
     counter-reset: lineno;
 }
 
-@media only screen and (max-width: 600px) {
-  body {
-    width: 400px;
-    height: 400px;
-}
-}
-
 .line, .status-line {
     white-space: normal;
     display: block; 
