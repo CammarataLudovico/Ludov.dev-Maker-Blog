@@ -2,30 +2,33 @@ import React from "react";
 import profile from "../assets/img/squadra12.JPG";
 
 const lines = [
-  "Hi.",
-  "I'm Ludovico Cammarata, a Front-End Developer based in Italy.",
-  "I study and work with web development every day, but I'm also passionate about back-end development like Node.js & Laravel.",
-  "I'm also passionate about 3d printing (I own a Bambu Lab A1 Combo), IoT, and DevOps tools like Docker, Grafana, and Prometheus.",
-  "",
-  "I mainly work with React, Laravel, and Node.js.",
-  "I'm constantly learning and building real projects to improve my skills.",
-  "I have my own VPS where I host my projects and experiment with new technologies and tools.",
-  "",
-  "You can find my projects on GitHub @CammarataLudovico.",
-  "When I'm not coding, I train, design, and work on personal ideas.",
-  "",
-  "With the button below you can change the site theme. C'mon try it.",
-  "༼ つ ◕_◕ ༽つ (very cool uh?)"
+"Hi.",
+"I'm Ludovico Cammarata, a Software Developer based in Italy.",
+"My background is mainly in web development, working with React, TypeScript, Laravel, PHP, and Node.js.",
+"",
+"I enjoy working across the stack, from building interfaces and APIs to databases, deployments, and the infrastructure behind my projects.",
+"I'm currently expanding my knowledge of Docker, Linux, networking, and Kubernetes.",
+"",
+"I run my own VPS where I host projects, manage deployments, and experiment with new technologies and infrastructure.",
+"",
+"Outside of software, I'm into 3D printing, CAD, IoT, and building things in general.",
+"",
+"You can find my projects on GitHub @CammarataLudovico.",
+"When I'm not coding, I'm usually training, designing something, or working on another personal project.",
+"",
+"And yes, you can change the site theme with the button below.",
+"C'mon, try it.",
+"༼ つ ◕_◕ ༽つ"
 ];
 
 export default function About() {
   return (
-    <div>
-      <div id="title">
-        <a href="/">&lt;</a> About 
-      </div>
+    <main>
+      <h1 id="title">
+        <a href="/" aria-label="Back to home">&lt;</a> ~/about
+      </h1>
       <div>
-        <img className="profile-img" src={profile} alt="Profile" />
+        <img className="profile-img" src={profile} alt="Ludovico Cammarata" />
       </div>
       {lines.map((text, i) => (
         text === "" ? (
@@ -40,6 +43,6 @@ export default function About() {
         <span>.quit</span>
         <span>12.03.2026        CammarataLudovico</span>
       </span>
-    </div>
+    </main>
   );
 }

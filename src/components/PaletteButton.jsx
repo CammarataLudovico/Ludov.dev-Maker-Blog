@@ -7,9 +7,9 @@ export default function PaletteButton() {
       aria-label="Change theme"
       onClick={() => changePalette()}
       style={{ background: "transparent", border: "none" }}
-      className="fa-palette"
+      className="palette-button"
     >
-      <i className="fas fa-palette" />
+      <i className="fas fa-palette fa-lg" />
     </button>
   );
 }

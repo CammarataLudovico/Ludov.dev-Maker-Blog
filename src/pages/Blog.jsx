@@ -5,11 +5,9 @@ const sortedPosts = [...posts].sort((a, b) => b.id - a.id);
 
 export default function Blog() {
   return (
-    <div>
-      <div id="title"><a href="/">&lt;</a> Blog</div>
-
-      <main>
-        <div className="portfolio-grid">
+    <main>
+      <h1 id="title"><a href="/" aria-label="Back to home">&lt;</a> ~/blog</h1>
+        <section className="portfolio-grid">
           {sortedPosts.map((p) => (
             <article key={p.id} className="card">
               <h3>{p.title}</h3>
@@ -18,8 +16,7 @@ export default function Blog() {
               <Link to={`/blog/${p.id}`}>Read more</Link>
             </article>
           ))}
-        </div>
+        </section>
       </main>
-    </div>
   );
 }

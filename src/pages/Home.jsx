@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 function countDirFile() {
   if (typeof document === "undefined") return { dirs: 0, files: 0 };
@@ -17,24 +18,32 @@ export default function Home() {
 
   return (
     <div>
-      <div id="title">Ludovico Cammarata — Junior Software Developer</div>
-
       <main>
+      <h1 id="title"> &lt; Ludovico Cammarata — Junior Software Developer </h1>
         
-        <span className="about"> 
+        <section className="about">
           <p> Ludovico Cammarata </p>
           <p> Software Developer based in Italy. </p>
           <p> I build web applications and experiment with infrastructure, Linux and containers. </p>
-        </span>
+        </section>
 
-        <b>Section:</b>
-        <span className="link">├── <a href="https://github.com/CammarataLudovico/Ludov.dev-Maker-Blog" target="_blank" rel="noreferrer" data-type="dir">site_source/</a></span>
-        <span className="link">├── <a href="https://github.com/CammarataLudovico" target="_blank" rel="noreferrer" data-type="dir">github/</a></span>
-        <span className="link">├── <a href="/about" data-type="file">about.dev</a></span>
-        <span className="link">├── <a href="/projects" data-type="file">projects.dev</a></span>
-        <span className="link">├── <a href="/blog" data-type="file">blog.dev</a></span>
-        <span className="link">├── <a href="/skills" data-type="file">skills.dev</a></span>
-        {/* <span className="link">└── <a href="/contacts" data-type="file">contacts.dev</a></span> ! Need to be implemented ! */}
+
+        <p className="terminal-path">
+          ~/portfolio<br />
+          $ ls
+        </p>
+
+        <nav aria-label="Portfolio sections">
+          <ul className="file-list">
+            <li>├── <a href="https://github.com/CammarataLudovico/Ludov.dev-Maker-Blog" data-type="dir" rel="noopener noreferrer" target="_blank">site_source</a></li>
+            <li>├── <a href="https://github.com/CammarataLudovico" data-type="dir" rel="noopener noreferrer" target="_blank">github</a></li>
+            <li>├── <Link to="/about" data-type="file">about.dev</Link></li>
+            <li>├── <Link to="/projects" data-type="file">projects.dev</Link></li>
+            <li>├── <Link to="/blog" data-type="file">blog.dev</Link></li>
+            <li>├── <Link to="/skills" data-type="file">skills.dev</Link></li>
+          </ul>
+        </nav>
+
         <br /> 
         <span>{counts.files} files, {counts.dirs} directories</span>
       </main>

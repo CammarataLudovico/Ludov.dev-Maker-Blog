@@ -9,7 +9,7 @@ export default function BlogPost() {
   if (!post) {
     return (
       <div>
-        <div id="title"><a href="/blog">&lt;</a> Post not found</div>
+        <div id="title"><a href="/blog" aria-label="Back to blog">&lt;</a> Post not found</div>
         <main>
           <p>Post not found.</p>
         </main>
@@ -19,7 +19,7 @@ export default function BlogPost() {
 
   return (
     <div>
-      <div id="title"><Link to="/blog">&lt;</Link> {post.title}</div>
+      <h1 id="title"><Link to="/blog" aria-label="Back to blog">&lt;</Link> {post.title}</h1>
       <main>
         <article className="card">
           <h2>{post.title}</h2>

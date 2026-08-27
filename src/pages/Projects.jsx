@@ -23,9 +23,9 @@ const projects = [
 export default function Projects() {
   return (
     <div>
-      <div id="title"><a href="/">&lt;</a> Projects</div>
-
       <main>
+        <h1 id="title"><a href="/" aria-label="Back to home">&lt;</a> ~/projects</h1>
+
         <div className="portfolio-grid">
           {projects.map((p, i) => (
             <article key={i} className="card">

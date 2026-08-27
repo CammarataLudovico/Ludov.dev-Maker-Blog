@@ -14,10 +14,8 @@ export default function App() {
   return (
     <div>
       <Nav />
-      <main>
         <Outlet />
         <PaletteButton />
-      </main>
     </div>
   );
 }

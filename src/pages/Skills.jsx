@@ -3,11 +3,11 @@ import Markdown from 'markdown-to-jsx/react'
 
 export default function Skills() {
   return (
-    <section>
-      <div id="title"><a href="/">&lt;</a> Skills</div>
+    <main>
+      <h1 id="title"><a href="/" aria-label="Back to home">&lt;</a> ~/skills</h1>
       <Markdown>{`
 
-# 👋 Hi, I'm Ludovico Cammarata
+👋 Hi, I'm Ludovico Cammarata
 
 I'm a **Software Developer** from Italy with a background in Front-End Development and hands-on experience building full-stack web applications.
 
@@ -24,57 +24,31 @@ Currently expanding my knowledge of **Docker, Linux, networking and Kubernetes**
 
 ### 🌐 Frontend
 
-* JavaScript
-* TypeScript
-* React
-* Tailwind CSS
-* Material UI
-* Shopify Development
-
-  * Preact
-  * Polaris
+* JavaScript, TypeScript, React, Tailwind CSS, Material UI
 
 ### ⚙️ Backend
 
-* PHP
-* Laravel
-* Node.js
-* Express
-* REST APIs
-* GraphQL
+* PHP, Laravel, Node.js, Express, REST APIs, GraphQL
 
 ### 🗄️ Databases
 
-* MySQL
-* SQLite
+* MySQL, SQLite
 
 ### 🐳 Infrastructure & Tools
 
-* Docker
-* Linux
-* Git
-* Nginx
-* Traefik
-* PM2
+* Docker, Linux, Git, Nginx, Traefik, PM2
 
-### 📊 Monitoring
+### 📊 Observability
 
-* Grafana
-* Prometheus
+* Grafana, Prometheus
 
 ### 💻 Other Languages & Technologies
 
-* Python
-* Java
-* Visual Basic
-
-  * Windows Forms
-  * WPF
+* Python, Java, Visual Basic (Windows Forms, WPF)
 
 ### 🛠 CAD & Making
 
-* Fusion 360
-* 3D Printing
+* Fusion 360, 3D Printing
 
 ## 📚 Currently Learning
 
@@ -98,6 +72,6 @@ Currently expanding my knowledge of **Docker, Linux, networking and Kubernetes**
         <span>.quit</span>
         <span>27.08.2026        CammarataLudovico</span>
       </span>
-    </section>
+    </main>
   );
 }
