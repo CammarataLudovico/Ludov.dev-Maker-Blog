@@ -56,5 +56,3 @@ npm run preview
 **Contributing:**
 - Open issues or PRs for fixes, accessibility, or feature suggestions.
 - Keep changes small and focused; prefer clear commits and descriptive PR titles.
-
-This README is a brief starter; tell me if you want a longer developer guide, CI config, or a deployment workflow added.
